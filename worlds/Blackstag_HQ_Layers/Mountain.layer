@@ -1,0 +1,496 @@
+$grp GenericEntity : "{82CD06EA569DBD16}Prefabs/Structures/Mountain/Mountain_1.et" {
+ {
+  coords -873.149 0 8792.946
+ }
+ {
+  coords 11126.211 79.942 8105.247
+  angleY -89.676
+ }
+ {
+  coords 11054.089 42.343 9622.218
+  angleY -90.193
+ }
+ {
+  coords 10936.229 49.697 11098.146
+ }
+ {
+  coords 9702.113 101.491 11235.509
+ }
+ {
+  coords 7792.747 112.495 11167.691
+  angleY 1.854
+ }
+ {
+  coords 6467.616 44.549 11248.148
+ }
+ {
+  coords 4917.949 42.403 11299.658
+ }
+ {
+  coords 3113.694 28.343 11320.54
+ }
+ {
+  coords -930.113 1.346 7596.913
+  angleY -3.67
+ }
+ {
+  coords -1018.986 21.807 5525.367
+ }
+ {
+  coords -1011.73 109.113 3732.137
+ }
+ {
+  coords -836.848 154.095 2443.776
+  angleY 179.223
+ }
+ {
+  coords -877.295 165.7 1065.921
+ }
+ {
+  coords -478.76 110.093 -216.925
+ }
+ {
+  coords 1435.349 209.435 -737.914
+ }
+ {
+  coords 2824.012 139.223 -758.24
+ }
+ {
+  coords 4335.258 81.563 -601.814
+ }
+ {
+  coords 6653.371 97.293 -600.72
+ }
+ {
+  coords 7988.956 148.405 -481.642
+ }
+ {
+  coords 10444.485 70.224 -118.44
+  angleY -85.422
+ }
+ {
+  coords 10939.396 0 6680.016
+ }
+ {
+  coords 5566.999 182.561 -852.711
+ }
+ {
+  coords 9481.993 204.864 -1047.41
+ }
+ {
+  coords 11055.227 61.052 4934.599
+ }
+ {
+  coords 11251.477 103.176 3010.681
+ }
+ {
+  coords 11388.939 71.879 1572.481
+ }
+ {
+  coords 11072.432 111.867 578.639
+ }
+}
+$grp GenericEntity : "{D8C0EA3A228F697C}PrefabsEditable/Auto/Rocks/Granite/E_GraniteCliff_03.et" {
+ {
+  components {
+   RigidBody "{5512A6BD1F1676FD}" {
+    Layers 67108995
+   }
+  }
+  coords 6548.537 150.349 187.647
+ }
+ {
+  components {
+   RigidBody "{5512A6BD1F1676FD}" {
+    Layers 67108995
+   }
+  }
+  coords 6584.53 184.015 166.805
+ }
+ {
+  components {
+   RigidBody "{5512A6BD1F1676FD}" {
+    Layers 67108995
+   }
+  }
+  coords 6548.174 177.149 167.426
+ }
+ {
+  components {
+   RigidBody "{5512A6BD1F1676FD}" {
+    Layers 67108995
+   }
+  }
+  coords 6594.542 146.528 193.89
+ }
+ {
+  components {
+   RigidBody "{5512A6BD1F1676FD}" {
+    Layers 67108995
+   }
+  }
+  coords 6605.052 197.928 159.319
+ }
+ {
+  components {
+   RigidBody "{5512A6BD1F1676FD}" {
+    Layers 67108995
+   }
+  }
+  coords 6537.599 146.784 192.284
+ }
+ {
+  components {
+   RigidBody "{5512A6BD1F1676FD}" {
+    Layers 67108995
+   }
+  }
+  coords 6574.927 145.065 192.927
+ }
+ {
+  components {
+   RigidBody "{5512A6BD1F1676FD}" {
+    Layers 67108995
+   }
+  }
+  coords 6527.735 168.321 177.147
+ }
+ {
+  components {
+   RigidBody "{5512A6BD1F1676FD}" {
+    Layers 67108995
+   }
+  }
+  coords 6546.477 163.768 176.337
+ }
+ {
+  components {
+   RigidBody "{5512A6BD1F1676FD}" {
+    Layers 67108995
+   }
+  }
+  coords 6610.036 189.038 168.008
+ }
+ {
+  components {
+   RigidBody "{5512A6BD1F1676FD}" {
+    Layers 67108995
+   }
+  }
+  coords 6606.456 166.523 183.122
+ }
+ {
+  components {
+   RigidBody "{5512A6BD1F1676FD}" {
+    Layers 67108995
+   }
+  }
+  coords 6545.599 200.02 145.387
+ }
+ {
+  components {
+   RigidBody "{5512A6BD1F1676FD}" {
+    Layers 67108995
+   }
+  }
+  coords 6568.851 188.827 160.78
+ }
+ {
+  components {
+   RigidBody "{5512A6BD1F1676FD}" {
+    Layers 67108995
+   }
+  }
+  coords 6569.864 192.356 156.918
+ }
+ {
+  components {
+   RigidBody "{5512A6BD1F1676FD}" {
+    Layers 67108995
+   }
+  }
+  coords 6529.198 185.936 161.458
+ }
+ {
+  components {
+   RigidBody "{5512A6BD1F1676FD}" {
+    Layers 67108995
+   }
+  }
+  coords 6601.338 179.678 173.364
+ }
+ {
+  components {
+   RigidBody "{5512A6BD1F1676FD}" {
+    Layers 67108995
+   }
+  }
+  coords 6585.764 162.221 181.35
+ }
+ {
+  components {
+   RigidBody "{5512A6BD1F1676FD}" {
+    Layers 67108995
+   }
+  }
+  coords 6640.263 182.419 182.265
+ }
+ {
+  components {
+   RigidBody "{5512A6BD1F1676FD}" {
+    Layers 67108995
+   }
+  }
+  coords 6623.543 184.079 176.617
+ }
+ {
+  components {
+   RigidBody "{5512A6BD1F1676FD}" {
+    Layers 67108995
+   }
+  }
+  coords 6617.164 203.285 159.653
+ }
+ {
+  components {
+   RigidBody "{5512A6BD1F1676FD}" {
+    Layers 67108995
+   }
+  }
+  coords 6643.752 193.715 172.565
+ }
+ {
+  components {
+   RigidBody "{5512A6BD1F1676FD}" {
+    Layers 67108995
+   }
+  }
+  coords 6592.222 196.193 160.798
+ }
+ {
+  components {
+   RigidBody "{5512A6BD1F1676FD}" {
+    Layers 67108995
+   }
+  }
+  coords 6604.769 205.889 147.167
+ }
+ {
+  components {
+   RigidBody "{5512A6BD1F1676FD}" {
+    Layers 67108995
+   }
+  }
+  coords 6570.382 196.797 149.619
+ }
+ {
+  components {
+   RigidBody "{5512A6BD1F1676FD}" {
+    Layers 67108995
+   }
+  }
+  coords 6530.871 203.48 150.146
+ }
+ {
+  components {
+   RigidBody "{5512A6BD1F1676FD}" {
+    Layers 67108995
+   }
+  }
+  coords 6530.417 196.527 157.121
+ }
+ {
+  components {
+   RigidBody "{5512A6BD1F1676FD}" {
+    Layers 67108995
+   }
+  }
+  coords 6563.438 204.387 143.958
+ }
+ {
+  components {
+   RigidBody "{5512A6BD1F1676FD}" {
+    Layers 67108995
+   }
+  }
+  coords 6627.028 170.408 185.871
+ }
+ {
+  components {
+   RigidBody "{5512A6BD1F1676FD}" {
+    Layers 67108995
+   }
+  }
+  coords 6633.089 208.42 156.633
+ }
+ {
+  components {
+   RigidBody "{5512A6BD1F1676FD}" {
+    Layers 67108995
+   }
+  }
+  coords 6565.456 167.899 174.113
+ }
+ {
+  components {
+   RigidBody "{5512A6BD1F1676FD}" {
+    Layers 67108995
+   }
+  }
+  coords 6529.606 161.818 186.667
+ }
+ {
+  components {
+   RigidBody "{5512A6BD1F1676FD}" {
+    Layers 67108995
+   }
+  }
+  coords 6566.058 151.371 182.814
+ }
+ {
+  components {
+   RigidBody "{5512A6BD1F1676FD}" {
+    Layers 67108995
+   }
+  }
+  coords 6549.865 194.166 154.804
+ }
+ {
+  components {
+   RigidBody "{5512A6BD1F1676FD}" {
+    Layers 67108995
+   }
+  }
+  coords 6559.741 153.995 188.068
+ }
+ {
+  components {
+   RigidBody "{5512A6BD1F1676FD}" {
+    Layers 67108995
+   }
+  }
+  coords 6634.852 201.234 162.071
+ }
+ {
+  components {
+   RigidBody "{5512A6BD1F1676FD}" {
+    Layers 67108995
+   }
+  }
+  coords 6589.968 202.185 147.767
+ }
+ {
+  components {
+   RigidBody "{5512A6BD1F1676FD}" {
+    Layers 67108995
+   }
+  }
+  coords 6614.431 162.4 189.11
+ }
+}
+$grp GenericEntity : "{EE99320AEA593238}Prefabs/Structures/Mountain/Mountain_2.et" {
+ {
+  coords 10741.604 39.771 8731.979
+  angleY -0.66
+ }
+ {
+  coords 9177.904 172.175 -336.54
+  angleY 117.369
+ }
+ {
+  coords 5912.136 49.055 10924.502
+  angleY 139.552
+ }
+ {
+  coords -830.184 1.237 6692.311
+  angleY -89.199
+ }
+ {
+  coords -679.681 25.671 5377.78
+  angleY 53.557
+ }
+ {
+  coords -836.052 81.431 4531.003
+  angleY -102.043
+ }
+ {
+  coords 356.114 189.549 -591.314
+  angleY 163.589
+ }
+ {
+  coords 5175.249 136.993 -480.291
+  angleY -79.356
+ }
+ {
+  coords -954.146 181.248 4723.561
+ }
+ {
+  coords 249.127 249.237 -783.001
+ }
+ {
+  coords 2258.682 262.83 -942.855
+ }
+ {
+  coords 3697.657 209.956 -819.659
+ }
+ {
+  coords 8777.105 257.197 -806.757
+  angleY -55.289
+ }
+ {
+  coords 7342.289 239.581 -781.41
+  angleY -92.867
+ }
+ {
+  coords 11157.842 118.991 3953.212
+  angleY -148.02
+ }
+ {
+  coords 11283.272 163.795 3953.922
+ }
+ {
+  coords 11028.754 82.604 5806.98
+  angleY -100.646
+ }
+ {
+  coords 11067.396 120.737 5741.268
+ }
+ {
+  coords 7059.23 155.796 -457.396
+  angleY 126.526
+ }
+ {
+  coords 11173.904 162.44 7323.19
+  angleY -106.996
+ }
+ {
+  coords 11227.672 148.093 9000.435
+ }
+ {
+  coords 8813.27 166.492 11145.631
+ }
+ {
+  coords 7119.631 227.141 11171.518
+ }
+ {
+  coords 5722.879 110.979 11395.782
+ }
+ {
+  coords 4056.88 85.773 11363.545
+ }
+ {
+  coords 2276.19 85.163 11466.893
+ }
+ {
+  coords 774.382 83.06 11434.031
+ }
+ {
+  coords -642.965 72.387 10896.992
+ }
+ {
+  coords -811.575 155.203 9355.351
+ }
+ {
+  coords -1171.906 65.549 6532.779
+ }
+}

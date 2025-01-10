@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:562818f8968c403627722f460dfe09f2217f4c869c420182fc868d5da5a35b6c
-size 304
+MetaFileClass {
+ Name "{ECBDB09A2AAC5D5B}worlds/Blackstag_HQ.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

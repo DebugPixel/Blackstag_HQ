@@ -1,0 +1,83 @@
+SCR_MapEntity MapEntity : "{731564B66F91B107}Prefabs/World/Game/MapEntity.et" {
+ coords 5179.501 67.992 5173.508
+ "Map Geometry Data" "{222A3D9B60807A07}worlds/Blackstag_HQ.topo"
+ "Satellite background image" "{37FA9F0B539F7110}Images/Screenshot 2025-01-05 223826.edds"
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "MapEntity: "\
+   "Set up map textures"
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
+}
+SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{6450C81D3247B913}" {
+     NavmeshFile "{429763470CC2D104}worlds/Gamemaster/Navmesh/Soldier_.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5584F30EEFEE1223}" {
+   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60CA9BE5536BF701}" {
+     NavmeshFile "{F7A4E27267A63E1A}worlds/Gamemaster/Navmesh/Vehicles_.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5C8C9B750D124A63}" {
+   NavmeshSettings NavmeshWorld "{5C8C9B750B60C6E2}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{5C90BD0EC793647D}" {
+     NavmeshFile "{95E1D460100A2A3D}worlds/Gamemaster/Navmesh/LowRes_.nmn"
+    }
+   }
+  }
+ }
+ coords 5179.501 67.977 5172.508
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "SCR_AIWorld: "\
+   "Configure navigation mesh"
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
+}
+PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 5179.501 67.953 5171.508
+}
+SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Editor/GameMode_Editor_Full.et" {
+ coords 5179.501 67.922 5170.508
+}
+MusicManager {
+ coords 5222.355 62.788 5250.232
+ "Time between music" 60
+ "Min interruption volume" 0.5
+ Music {
+  SCR_RespawnMusic "{6450C81FBB57F3B7}" {
+  }
+  SCR_BaseCaptureMusic "{6450C81FBF2887F9}" {
+  }
+  SCR_SpawnMusic "{6450C81E43836A21}" {
+  }
+  SCR_LocationMusic "{6450C81E48CC398F}" {
+  }
+  SCR_GameEndMusic "{6450C81E4D8619C2}" {
+  }
+  SCR_EnterEnemyMilitaryBaseMusic "{6450C81E4F93B2B6}" {
+  }
+ }
+}
+SCR_MapLocator {
+ coords 5227.141 62.616 5249.055
+}
