@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:fd8694ea653c3e68bcc872ac3ee9b39214ad90438d2fe221fee38c5c9d8ae464
-size 315
+MetaFileClass {
+ Name "{061EBA00A85B05FB}worlds/Blackstag_HQ_SMD.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

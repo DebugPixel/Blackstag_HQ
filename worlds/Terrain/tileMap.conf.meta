@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6eea0a4cd8011a71634d84fb8aab9c90e10717d75edfc6861e80a2d2a6eb0d59
-size 328
+MetaFileClass {
+ Name "{C43BC7464A5CF9AB}worlds/Terrain/tileMap.conf"
+ Configurations {
+  CONFResourceClass PC {
+   Present No
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

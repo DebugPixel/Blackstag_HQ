@@ -1,3 +1,7 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:78e88636e737fe5f4bf90b8e5ff4add8fdc25cf9430ece3453cf5e09314cbbb5
-size 165
+HeightMapImportDescClass {
+ FileName "C:/Users/marka/Maps/map4/gtt_export/gtt_heightmap.asc"
+ Flags 1
+ MinHeight -1000000
+ ResampleMinHeight 0
+ ResampleMaxHeight 1
+}
