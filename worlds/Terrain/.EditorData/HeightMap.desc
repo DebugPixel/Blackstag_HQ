@@ -1,7 +1,0 @@
-HeightMapImportDescClass {
- FileName "C:/Users/marka/Maps/map4/gtt_export/gtt_heightmap.asc"
- Flags 1
- MinHeight -1000000
- ResampleMinHeight 0
- ResampleMaxHeight 1
-}

@@ -1,0 +1,25 @@
+GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{2ABEE23D1D32A4F1}Assets/Props/Commercial/NewspaperStand_01/NewspaperStand_01.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "TinyDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" : "{76DA308CC9E2AB84}Prefabs/Props/Core/DestructionMultiPhase_Base.ct" {
+   m_fBaseHealth 900
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{6462AC5E1F691E68}" {
+     m_ModelPrefabs {
+      "{24BED82861CC1CD0}Assets/Props/Commercial/NewspaperStand_01/Dst/NewspaperStand_01_dst_01.xob" "{BDA061B17C2B2D40}Assets/Props/Commercial/NewspaperStand_01/Dst/NewspaperStand_01_dst_02.xob" "{CAAA09398889C230}Assets/Props/Commercial/NewspaperStand_01/Dst/NewspaperStand_01_dst_03.xob"
+     }
+     m_eMaterialSoundType METAL_LIGHT
+    }
+   }
+  }
+ }
+ coords 0 0 0
+}

@@ -1,7 +1,0 @@
-SatGenDescClass {
- FileName "C:/Users/marka/Maps/map4/gtt_export/gtt_satmap.png"
- sRGBOutput 0
- RenderRoads 1
- Interpolation bilinear
- RoadsAA "8x"
-}

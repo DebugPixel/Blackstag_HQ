@@ -1,0 +1,96 @@
+SCR_DestructibleEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/Destructible_Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{1F30E792C1637B27}Assets/Props/Commercial/MarketStand_01/MarketStand_Umbrella_01.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   Mass 20
+   ResponseIndex "TinyDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" : "{76DA308CC9E2AB84}Prefabs/Props/Core/DestructionMultiPhase_Base.ct" {
+   Enabled 0
+   m_fBaseHealth 300
+   m_fForceToDamageScale 350
+   m_fDamageThresholdMaximum 20000
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{6462AC5E093D74C2}" {
+     m_ModelPrefabs {
+      "{5D12CFE342681AA1}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_Umbrella_01_Dst_01.xob"
+     }
+     m_fRandomVelocityLinear 2
+     m_eMaterialSoundType MATRESS
+    }
+    SCR_DebrisSpawnable "{6462AC5E093D74F4}" {
+     m_ModelPrefabs {
+      "{C40C767A5F8F2B31}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_Umbrella_01_Dst_02.xob"
+     }
+     m_eMaterialSoundType ROCK_SMALL
+    }
+    SCR_ParticleSpawnable "{6462AC5E093D74F6}" {
+     m_vOffsetPosition 0 2 0
+     m_Particle "{66DAEB775AA8CA4C}Particles/Props/Dest_Prop_Metal_Medium.ptc"
+    }
+   }
+   m_eMaterialSoundType BREAK_METAL_POLE
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+  }
+ }
+ coords 0 0 0
+ MaxHealth 300
+ "Explosive multiplier" 90
+ FirstDestructionPhase SCR_BaseDestructionPhase "{6462AC5E093D74EA}" {
+  m_sPhaseModel "{1F30E792C1637B27}Assets/Props/Commercial/MarketStand_01/MarketStand_Umbrella_01.xob"
+ }
+ LastDestructionPhase SCR_BaseDestructionPhase "{6462AC5E093D74E4}" {
+  Threshold 0
+  m_aPhaseDestroySpawnObjects {
+   SCR_DebrisSpawnable "{6462AC5E093D74E5}" {
+    m_vOffsetPosition 0 0 0
+    m_vOffsetRotation 0 0 0
+    m_ModelPrefabs {
+     "{5D12CFE342681AA1}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_Umbrella_01_Dst_01.xob"
+    }
+    m_fMass 10
+    m_fLifetimeMin 5
+    m_fLifetimeMax 10
+    m_fDistanceMax 200
+    m_fPriority 0
+    m_fDamageToImpulse 0.1
+    m_fMaxDamageToSpeedMultiplier 2
+    m_fRandomVelocityLinear 2
+    m_fRandomVelocityAngular 180
+    m_eMaterialSoundType MATRESS
+   }
+   SCR_DebrisSpawnable "{6462AC5E093D74E7}" {
+    m_vOffsetPosition 0 0 0
+    m_vOffsetRotation 0 0 0
+    m_ModelPrefabs {
+     "{C40C767A5F8F2B31}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_Umbrella_01_Dst_02.xob"
+    }
+    m_fMass 10
+    m_fLifetimeMin 5
+    m_fLifetimeMax 10
+    m_fDistanceMax 200
+    m_fPriority 0
+    m_fDamageToImpulse 0.1
+    m_fMaxDamageToSpeedMultiplier 2
+    m_fRandomVelocityLinear 0.5
+    m_fRandomVelocityAngular 180
+    m_eMaterialSoundType ROCK_SMALL
+   }
+   SCR_ParticleSpawnable "{6462AC5E093D74E1}" {
+    m_vOffsetPosition 0 2 0
+    m_vOffsetRotation 0 0 0
+    m_Particle "{66DAEB775AA8CA4C}Particles/Props/Dest_Prop_Metal_Medium.ptc"
+    m_bAtCenter 1
+    m_bDirectional 1
+   }
+  }
+ }
+ m_eMaterialSoundType BREAK_METAL_POLE
+}

@@ -1,0 +1,69 @@
+$grp SCR_DestructibleBuildingEntity : "{C0EF16C9118ECB28}Prefabs/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Wide_PillarSmall.et" {
+ {
+  coords 7002.047 227.494 1061.635
+  angleY 66.574
+ }
+ {
+  coords 7012.367 227.495 1037.842
+  angleY 66.574
+ }
+ {
+  coords 7022.697 227.483 1014
+  angleY 66.574
+ }
+ {
+  coords 7033.021 227.485 990.201
+  angleY 66.574
+ }
+ {
+  coords 7043.33 227.478 966.361
+  angleY 66.574
+ }
+ {
+  coords 7053.62 227.479 942.614
+  angleY 66.574
+ }
+ {
+  coords 7063.88 227.454 918.823
+  angleY 66.574
+ }
+ {
+  coords 7074.206 227.457 895.016
+  angleY 66.574
+ }
+ {
+  coords 7084.526 227.458 871.206
+  angleY 66.574
+ }
+ {
+  coords 7094.844 227.447 847.405
+  angleY 66.574
+ }
+ {
+  coords 7105.144 227.452 823.649
+  angleY 66.574
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{CB6ABAED9BC65DE3}Prefabs/Infrastructure/Bridges/Highway Bridge Pillar.et" {
+ {
+  coords 7049.764 226.393 949.973
+ }
+ {
+  coords 7049.745 207.576 950.004
+ }
+ {
+  coords 7049.697 188.759 950.001
+ }
+ {
+  coords 7049.701 169.942 950.043
+ }
+ {
+  coords 7049.68 151.125 950.036
+ }
+ {
+  coords 7049.683 132.307 950.08
+ }
+ {
+  coords 7049.694 113.517 950.099
+ }
+}

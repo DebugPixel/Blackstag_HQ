@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{7D4EF7BC9958AC7F}worlds/blackstag_topo/Blackstag_GM.topo"
+ Configurations {
+  MapTopoResourceClass PC {
+  }
+  MapTopoResourceClass XBOX_ONE : PC {
+  }
+  MapTopoResourceClass XBOX_SERIES : PC {
+  }
+  MapTopoResourceClass PS4 : PC {
+  }
+  MapTopoResourceClass PS5 : PC {
+  }
+  MapTopoResourceClass HEADLESS : PC {
+  }
+ }
+}

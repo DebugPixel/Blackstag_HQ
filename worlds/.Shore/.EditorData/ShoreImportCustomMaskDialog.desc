@@ -1,7 +1,0 @@
-ShoreImportMaskDialogConfig {
- FileName "C:/Users/marka/Maps/map4/gtt_export/gtt_satmap.png"
- BoundsType 0
- BoundsTerrainMargin 125
- CustomBounds 0 0 0 0
- ContainsFoam 1
-}

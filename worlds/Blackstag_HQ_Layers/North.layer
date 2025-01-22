@@ -1,0 +1,44 @@
+SCR_DestructibleBuildingEntity : "{0F87EF7B4C75F36A}Prefabs/Structures/Bulding/FuelStation/Ind_FuelStation_Sign_ep1.et" {
+ coords 1771.697 0.638 7014.435
+ angleY -81.133
+ scale 1.68
+}
+$grp SCR_DestructibleBuildingEntity : "{1052D79F62ADFEA4}Prefabs/Structures/Commercial/FuelStations/FuelStation_E_01/FuelStation_E_01_roof.et" {
+ {
+  coords 1778.005 -0.08 6988.321
+  angleY 88.257
+ }
+ {
+  coords 1778.261 -0.173 6977.658
+  angleY 88.684
+ }
+}
+StaticModelEntity : "{18522C4E303FC9D6}Prefabs/Structures/Industrial/Containers/FuelTanks/FuelTank_02/FuelTank_02_Base.et" {
+ coords 1815.723 0.157 7024.578
+ angleY 55.707
+ scale 2.535
+}
+SCR_DestructibleBuildingEntity : "{BAD6770D3611025E}Prefabs/Structures/Commercial/FuelStations/FuelStation_E_01/FuelStation_E_01_building.et" {
+ coords 1780.487 0.121 6967.33
+ angleY -90.935
+ {
+  GenericEntity {
+   ID "6462AC5B7D639D07"
+   coords 0 -0.051 0
+  }
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{D48BE0970B874F54}Prefabs/Structures/Commercial/FuelStations/FuelStation_E_01/FuelStation_E_01_tankpistol.et" {
+ {
+  coords 1778.27 0.19 6979.354
+  angleY -94.712
+ }
+ {
+  coords 1777.929 0.237 6990.051
+  angleY -93.736
+ }
+}
+SCR_DestructibleBuildingEntity : "{DFC65EFF8D9782D7}Prefabs/Structures/Commercial/FuelStations/FuelStation_E_01/FuelStation_E_01_platform.et" {
+ coords 1778.915 0 6980.462
+ angleY 88.662
+}

@@ -1,0 +1,399 @@
+SCR_DestructibleBuildingEntity {
+ ID "6462AC5E59C3BF25"
+ components {
+  MeshObject "{6462AC5E59C1F13F}" {
+   Object "{6DB1CC105D5746A3}Assets/Structures/Commercial/SuperMarket/SuperMarket.xob"
+   LODFactors {
+    20 15 10 5 1
+   }
+   ClutterOccluder 1
+   ClutterOccluderClipPlane 10
+  }
+  RigidBody "{6462AC5E59C1F12B}" {
+   ModelGeometry 1
+   Static 1
+  }
+  WorldSubsceneComponent "{6462AC5E59C1F12E}" {
+  }
+  Hierarchy "{6462AC5E59C1F120}" {
+  }
+ }
+ angleY 122.817
+ Flags 525315
+ SlotBoneMappings {
+  SlotBoneMappingObject "{6462AC5E59C1F124}" {
+   BonePrefix "socket_Door_back"
+   Prefab "{A467215E3702C728}Prefabs/Props/Structures/Doors/Supermarket doors/SupermarketBack door Frame.et"
+  }
+  SlotBoneMappingObject "{6462AC5E59C1F0D8}" {
+   BonePrefix "socket_door_main"
+   Prefab "{1C71733E062E33FF}Prefabs/Props/Structures/Doors/Supermarket doors/Supermarket Main.et"
+  }
+  SlotBoneMappingObject "{6462AC5E59C1F0D9}" {
+   BonePrefix "socket_window_small"
+   Prefab "{5588A84D5DA25EE6}Prefabs/Structures/BuildingParts/Windows/Supermarket/Window_01.et"
+  }
+  SlotBoneMappingObject "{6462AC5E59C1F0DA}" {
+   BonePrefix "socket_window_H"
+   Prefab "{3453EBEE021B08B2}Prefabs/Structures/BuildingParts/Windows/Supermarket/Supermarket_H.et"
+  }
+  SlotBoneMappingObject "{6462AC5E59C1F0DB}" {
+   BonePrefix "socket_window_Large"
+   Prefab "{22208D29B13423F0}Prefabs/Structures/BuildingParts/Windows/Supermarket/Supermarket Longwindow.et"
+  }
+  SlotBoneMappingObject "{6462AC5E59C1D25F}" {
+   BonePrefix "socket_window_Square"
+   Prefab "{04E8B995940A58FF}Prefabs/Structures/BuildingParts/Windows/Supermarket/Window_05.et"
+  }
+  SlotBoneMappingObject "{6462AC5E59C1D258}" {
+   BonePrefix "socket_window_longside"
+   Prefab "{DC40D054ED8346A3}Prefabs/Structures/BuildingParts/Windows/Supermarket/Window_03.et"
+  }
+  SlotBoneMappingObject "{6462AC5E59C1D25A}" {
+   BonePrefix "socket_window_ShortSide"
+   Prefab "{E174F56C98EFCF94}Prefabs/Structures/BuildingParts/Windows/Supermarket/Window_04.et"
+  }
+  SlotBoneMappingObject "{6462AC5E59C1D25B}" {
+   BonePrefix "socket_window_tiny"
+   Prefab "{39DC9CADE166D1C8}Prefabs/Structures/BuildingParts/Windows/Supermarket/Window_02.et"
+  }
+  SlotBoneMappingObject "{6462AC5E59C1D250}" {
+   BonePrefix "socket_window_Oval"
+   Prefab "{68BC8D7528CED7D1}Prefabs/Structures/BuildingParts/Windows/Supermarket/Window_06.et"
+  }
+ }
+ {
+  $grp Building : "{04E8B995940A58FF}Prefabs/Structures/BuildingParts/Windows/Supermarket/Window_05.et" {
+   {
+    ID "6462AC5E59C3A91C"
+    components {
+     Hierarchy "{6218B6937CC3C5C8}" {
+      Enabled 1
+      PivotID "socket_window_Square"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6462AC5E59C3BF2A"
+    components {
+     Hierarchy "{6218B6937CC3C5C8}" {
+      Enabled 1
+      PivotID "socket_window_Square.002"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6462AC5E59C3BF2B"
+    components {
+     Hierarchy "{6218B6937CC3C5C8}" {
+      Enabled 1
+      PivotID "socket_window_Square.001"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  GenericEntity : "{1C71733E062E33FF}Prefabs/Props/Structures/Doors/Supermarket doors/Supermarket Main.et" {
+   ID "6462AC5E59C3A91A"
+   components {
+    Hierarchy "{6216F19DB835F248}" {
+     Enabled 1
+     PivotID "socket_door_main"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  Building : "{22208D29B13423F0}Prefabs/Structures/BuildingParts/Windows/Supermarket/Supermarket Longwindow.et" {
+   ID "6462AC5E59C3A966"
+   components {
+    Hierarchy "{62177254F725FB24}" {
+     Enabled 1
+     PivotID "socket_window_Large"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  Building : "{3453EBEE021B08B2}Prefabs/Structures/BuildingParts/Windows/Supermarket/Supermarket_H.et" {
+   ID "6462AC5E59C3A963"
+   components {
+    Hierarchy "{62177254F725FB24}" {
+     Enabled 1
+     PivotID "socket_window_H"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  $grp Building : "{39DC9CADE166D1C8}Prefabs/Structures/BuildingParts/Windows/Supermarket/Window_02.et" {
+   {
+    ID "6462AC5E59C2B8F6"
+    components {
+     Hierarchy "{6218B6937CC3C5C8}" {
+      Enabled 1
+      PivotID "socket_window_tiny.002"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6462AC5E59C2C120"
+    components {
+     Hierarchy "{6218B6937CC3C5C8}" {
+      Enabled 1
+      PivotID "socket_window_tiny"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6462AC5E59C2C12F"
+    components {
+     Hierarchy "{6218B6937CC3C5C8}" {
+      Enabled 1
+      PivotID "socket_window_tiny.001"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6462AC5E59C30506"
+    components {
+     Hierarchy "{6218B6937CC3C5C8}" {
+      Enabled 1
+      PivotID "socket_window_tiny.003"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6462AC5E59C30507"
+    components {
+     Hierarchy "{6218B6937CC3C5C8}" {
+      Enabled 1
+      PivotID "socket_window_tiny.007"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6462AC5E59C3A961"
+    components {
+     Hierarchy "{6218B6937CC3C5C8}" {
+      Enabled 1
+      PivotID "socket_window_tiny.005"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6462AC5E59C3A962"
+    components {
+     Hierarchy "{6218B6937CC3C5C8}" {
+      Enabled 1
+      PivotID "socket_window_tiny.006"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6462AC5E59C3E4FB"
+    components {
+     Hierarchy "{6218B6937CC3C5C8}" {
+      Enabled 1
+      PivotID "socket_window_tiny.004"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp Building : "{5588A84D5DA25EE6}Prefabs/Structures/BuildingParts/Windows/Supermarket/Window_01.et" {
+   {
+    ID "6462AC5E59C206C0"
+    components {
+     Hierarchy "{62177254325C333C}" {
+      Enabled 1
+      PivotID "socket_window_small.001"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6462AC5E59C206C3"
+    components {
+     Hierarchy "{62177254325C333C}" {
+      Enabled 1
+      PivotID "socket_window_small.002"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6462AC5E59C25755"
+    components {
+     Hierarchy "{62177254325C333C}" {
+      Enabled 1
+      PivotID "socket_window_small.004"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6462AC5E59C26E29"
+    components {
+     Hierarchy "{62177254325C333C}" {
+      Enabled 1
+      PivotID "socket_window_small"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6462AC5E59C2C121"
+    components {
+     Hierarchy "{62177254325C333C}" {
+      Enabled 1
+      PivotID "socket_window_small.003"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  Building : "{68BC8D7528CED7D1}Prefabs/Structures/BuildingParts/Windows/Supermarket/Window_06.et" {
+   ID "6462AC5E59C25753"
+   components {
+    Hierarchy "{6218B6964473C2FD}" {
+     Enabled 1
+     PivotID "socket_window_oval"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  $grp GenericEntity : "{A467215E3702C728}Prefabs/Props/Structures/Doors/Supermarket doors/SupermarketBack door Frame.et" {
+   {
+    ID "6462AC5E59C24006"
+    components {
+     Hierarchy "{6216F19DB835F248}" {
+      Enabled 1
+      PivotID "socket_Door_back.002"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6462AC5E59C25750"
+    components {
+     Hierarchy "{6216F19DB835F248}" {
+      Enabled 1
+      PivotID "socket_Door_back.003"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6462AC5E59C25751"
+    components {
+     Hierarchy "{6216F19DB835F248}" {
+      Enabled 1
+      PivotID "socket_Door_back"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6462AC5E59C25752"
+    components {
+     Hierarchy "{6216F19DB835F248}" {
+      Enabled 1
+      PivotID "socket_Door_back.001"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  GenericEntity : "{BBD0AA5E03D2165A}Prefabs/Structures/Commerical/Supermarket Furniture.et" {
+   ID "6462AC5E59C24019"
+   coords 0 0 0
+  }
+  EnvironmentProbeEntity : "{BF7013E031DC6B34}Prefabs/Structures/Commercial/Shops/Probe_ShopHouse_E_2I01t.et" {
+   ID "6462AC5E59C24017"
+   coords -0.579 1.928 1.039
+  }
+  GenericEntity : "{D2CED12F99982A44}Prefabs/Structures/Commerical/Sign Supermarket.et" {
+   ID "6462AC5E59C24016"
+   coords -12.565 4.251 4.083
+  }
+  $grp Building : "{DC40D054ED8346A3}Prefabs/Structures/BuildingParts/Windows/Supermarket/Window_03.et" {
+   {
+    ID "6462AC5E59C1F138"
+    components {
+     Hierarchy "{6218B6937CC3C5C8}" {
+      Enabled 1
+      PivotID "socket_window_longside"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6462AC5E59C24029"
+    components {
+     Hierarchy "{6218B6937CC3C5C8}" {
+      Enabled 1
+      PivotID "socket_window_longside.001"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp Building : "{E174F56C98EFCF94}Prefabs/Structures/BuildingParts/Windows/Supermarket/Window_04.et" {
+   {
+    ID "6462AC5E59C1F139"
+    components {
+     Hierarchy "{6218B6937CC3C5C8}" {
+      Enabled 1
+      PivotID "socket_window_ShortSide.001"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6462AC5E59C1F13A"
+    components {
+     Hierarchy "{6218B6937CC3C5C8}" {
+      Enabled 1
+      PivotID "socket_window_ShortSide"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+ }
+}
